@@ -1,3 +1,7 @@
+# Program: prog1 for CPSC 323 Project 1
+# Author: Sean Del Castillo
+# Date: 3/1/22
+
 from collections import defaultdict
 import string
 
