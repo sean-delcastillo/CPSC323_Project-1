@@ -50,6 +50,3 @@ fsm1.defineState("acceptstate", "0", "state3")          # Accept [a]-> 0
 
 string = input("Please input string of alphabet 'a, b' to run through FSM: ")
 fsm1.runMachine(string.lower())
-
-#git testing
-#testing staging and commit from git BASH
