@@ -38,9 +38,9 @@ class FSM_2:
             print(currentstate)
 
         if currentstate == self.acceptState:
-            print("String accepted! :D")
+            print("YES")    # String accepted! :D
         else:
-            print("String denied... :(")
+            print("NO")     # String not accepted... D:
 
 fsm1 = FSM_2("startstate", "acceptstate")  # Creating an FSM that accepts language defined by (a|b)*bb*a
 fsm1.defineState("startstate", "state2", "state3")      # Start  [a]-> State2
